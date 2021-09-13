@@ -10,7 +10,7 @@ function draw() {
   background(0); //Фон
   k.render(); //Сам фрактал
   k.nextLevel(); //Итерация
-  if (k.getCount() > 5) { //Кол-во итераций
+  if (k.getCount() > 7) { //Кол-во итераций
     k.restart(); //Рестрарт
   }
 }
